@@ -1,0 +1,98 @@
+.price{
+    padding-top: 70px;
+    .price-item{
+        margin-bottom: 50px;
+        h3{
+            color: $textColor;
+            line-height: 45px;
+            font-weight: bold;
+            font-size: 36px;
+            font-family: $heeb;
+            margin-bottom: 20px;
+        }
+        p{
+            width: 62%;
+            color: #777;
+            font-size: 17px;
+            margin: auto;
+        }
+    }
+    .price-content{
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        padding: 0;
+        
+        &:nth-child(2){
+            margin:0 33px;
+        }
+        h2{
+           width: 100%;
+           font-weight: bold ;
+           padding: 25px;
+           background-color: #EDF6FF;
+           margin-bottom:16px ;
+            transition: all .3s ease-in-out;
+        }
+        ul{
+            li{
+                color: #ccc;
+                padding-bottom: 5px;
+            }    
+        }
+        .price-start{
+            background-color: #EDF6FF;
+            padding: 15px;
+            margin: 25px;
+            min-height: 100px;
+            border-radius: 5px;
+            transition: all .3s ease-in-out;
+            .icon{
+                position: relative;
+                i{
+                    position: absolute;
+                    left: 79px;
+                    top: 34px;
+                }
+                span{
+                    font-weight: bold;
+                    font-size: 65px;
+                    display: inline-block;
+                }
+                p{
+                    top: 25px;
+                    position: absolute;
+                    right: 38px
+                }
+            }
+            .icon-button{
+              font-family: $rob;
+               padding: 25px;
+               background-image: linear-gradient(100deg,rgb(77,171,255) 0%, rgb(98,221,255) 100%);
+               border-radius: 5px;
+               a{
+                   text-decoration: none;
+                   color: #fff;
+               }
+            }  
+        }
+        &:hover{
+           h2{
+            background-image: linear-gradient(100deg,rgb(77,171,255) 0%, rgb(98,221,255) 100%);
+            color: #fff;
+           } 
+           .price-start{
+            background-image: linear-gradient(100deg,rgb(77,171,255) 0%, rgb(98,221,255) 100%);
+                .icon{
+                    color: #fff; 
+                }
+                .icon-button{
+                    background-image: none;
+                    background-color: #fff;
+                    a{
+                        color: #222;
+                    }
+                }
+           }
+        }
+    }
+}

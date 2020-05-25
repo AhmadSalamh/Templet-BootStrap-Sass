@@ -1,0 +1,52 @@
+footer{
+    background-color: #000410;
+    padding-top: 80px;
+    .footer-info{
+        h2{
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        p{
+            color:#808080;
+            font-size: 14px;
+            span{
+                color: #308CC6;
+                font-weight: bold;
+            }
+        }
+    }
+    .footer-suppoert{
+        h2{
+            color: #fff;
+            margin-bottom: 20px; 
+        }
+        p{
+            color: #808080;
+            font-size: 14px;
+        }
+        form{
+            input{
+                width: 100%;
+                padding: 10px;
+                outline: none;
+                border: none;
+                border-radius: 5px;
+                background-color: none;
+            }
+        }
+    }
+    .footer-follow{
+        h2{
+            color: #fff;
+            margin-bottom: 20px; 
+        }
+        p{
+            color: #808080;
+        }
+        i{
+            color: #fff;
+            padding-left: 10px;
+            cursor: pointer;
+        }
+    }
+}

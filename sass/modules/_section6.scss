@@ -1,0 +1,39 @@
+.section6{
+    margin-bottom: 90px;
+    .section6-sec{
+        vertical-align: middle;
+        align-self: center;
+        h3{
+            color: $textColor;
+            line-height: 45px;
+            font-weight: bold;
+            font-size: 36px;
+            font-family: $heeb;
+            margin-bottom: 20px;
+        }
+        h6{
+            font-size:16px;
+            color: $textColor;
+            font-weight: bold;
+            font-family: $rob;
+        }
+        p{
+            color: #777;
+            font-size: 14px;
+            margin: 0;
+        }
+        .section6-area{
+            font-size: 14px;
+            margin-top: 40px;
+            a{
+                margin-top: 7px;
+                text-decoration: none;
+                color: #fff;
+                border: none;
+                border-radius: 3px;
+                background-image: linear-gradient(100deg,rgb(77,171,255) 0%, rgb(98,221,255) 100%);
+                padding: 17px 30px;
+            }
+        }
+    }
+}

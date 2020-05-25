@@ -1,0 +1,30 @@
+.final{
+    background-color: #3BACF0;
+    max-height:1000px;
+    padding: 50px;
+    color: #fff;
+    .final-content{
+        padding-bottom: 20px;
+        h2{
+            padding-bottom: 15px;
+        }p{
+            width: 60%;
+            margin: auto;
+            padding-bottom: 25px;
+        }
+        button{
+            padding: 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            transition: all .3s ease-in;
+            border: 1px solid #ccc;
+            &:hover{
+                background-color:#3BACF0 ;
+                color: #fff;
+            }
+        }
+    }
+
+    
+}

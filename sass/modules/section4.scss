@@ -1,0 +1,18 @@
+.section4{
+    font-family: $rob;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    h1{
+        font-size: 36px;
+        color: $textColor;
+        margin-bottom: 15px;
+        font-weight: bold;
+        font-family: $heeb;
+    }
+    p{
+        font-size: 14px;
+        color: #777;
+        max-width: 580px;
+        margin: auto;
+    }
+}
